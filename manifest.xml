@@ -5,19 +5,19 @@
     <remote name="github" fetch="https://github.com/" />
     <remote name="chromium" fetch="https://chromium.googlesource.com/" />
 
-    <project path="./polygnosics"
+    <project path="."
            name="polygnosics.git"
            remote="origin"
            revision="master">
     </project>
 
-    <project path="./polygnosics-frontend"
+    <project path="."
            name="polygnosics-frontend.git"
            remote="origin"
            revision="master">
     </project>
 
-    <project path="./mysql-user-db-go-interface"
+    <project path="."
            name="mysql-user-db-go-interface.git"
            remote="origin"
            revision="master">
