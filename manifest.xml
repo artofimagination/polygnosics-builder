@@ -5,13 +5,13 @@
     <remote name="github" fetch="https://github.com/" />
     <remote name="chromium" fetch="https://chromium.googlesource.com/" />
 
-    <project path="../polygnosics/polygnosics"
+    <project path="./polygnosics/polygnosics"
            name="polygnosics.git"
            remote="artofimagination"
            revision="master">
     </project>
 
-    <project path="../polygnosics/polygnosics-frontend"
+    <project path="./polygnosics/polygnosics-frontend"
            name="polygnosics-frontend.git"
            remote="artofimagination"
            revision="master">
