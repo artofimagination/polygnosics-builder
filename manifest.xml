@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="arofimagination" fetch="ssh://git@github.com/artofimagination/" />
+    <remote name="origin" fetch="ssh://git@github.com/artofimagination/" />
     <remote name="github" fetch="https://github.com/" />
     <remote name="chromium" fetch="https://chromium.googlesource.com/" />
 
-    <project path="./polygnosics/polygnosics"
+    <project path="./polygnosics"
            name="polygnosics.git"
-           remote="artofimagination"
+           remote="origin"
            revision="master">
     </project>
 
-    <project path="./polygnosics/polygnosics-frontend"
+    <project path="./polygnosics-frontend"
            name="polygnosics-frontend.git"
-           remote="artofimagination"
+           remote="origin"
            revision="master">
     </project>
 
-    <project path="./polygnosics/mysql-user-db-go-interface"
+    <project path="./mysql-user-db-go-interface"
            name="mysql-user-db-go-interface.git"
-           remote="artofimagination"
+           remote="origin"
+           revision="master">
+    </project>
+    
+    <project path="./polygnosics-builder"
+           name="polygnosics-builder.git"
+           remote="origin"
            revision="master">
     </project>
 </manifest>
